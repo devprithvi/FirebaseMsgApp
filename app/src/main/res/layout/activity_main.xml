@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ipie Android !"
+        android:textAlignment="center"
+        android:textColor="#006600"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonLargeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a large image" />
+
+    <Button
+        android:id="@+id/buttonLargeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a large block of text" />
+
+    <Button
+        android:id="@+id/buttonInboxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inbox-style notification" />
+
+</LinearLayout>

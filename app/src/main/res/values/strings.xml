@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseMsgApp</string>
+    <string name="msg_subscribed">Sunscribed</string>
+    <string name="msg_subscribe_failed">Failed</string>
+</resources>
